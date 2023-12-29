@@ -1,0 +1,2 @@
+# idea-repo
+Idea calculations
