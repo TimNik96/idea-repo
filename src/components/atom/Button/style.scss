@@ -1,0 +1,37 @@
+.button {
+    @apply rounded font-bold text-xs text-center px-2 py-1;
+}
+
+.actionButton {
+    @apply bg-opacity-0 text-plain-white cursor-pointer w-10;
+}
+
+.basicButton {
+    @apply bg-plain-white text-plain-grey border border-plain-grey transition duration-300
+  hover:bg-plain-grey hover:text-plain-white;
+}
+
+.reverseBlueButton {
+    @apply bg-plain-white text-fingerprint-blue transition duration-300
+   hover:bg-fingerprint-blue hover:text-plain-white;
+}
+
+.greyButton {
+    @apply bg-unreachable text-customgrayfont transition duration-300 
+  hover:bg-customgrayfont hover:text-plain-white;
+}
+
+.blueButton {
+    @apply bg-fingerprint-blue text-plain-white border border-fingerprint-blue transition duration-300
+   hover:bg-plain-white hover:border hover:border-fingerprint-blue hover:text-fingerprint-blue;
+}
+
+.redButton {
+    @apply bg-fingerprint-red text-plain-white transition 
+   hover:bg-plain-white hover:border hover:border-fingerprint-red hover:text-fingerprint-red duration-300;
+}
+
+.greenButton {
+    @apply bg-fingerprint-green border border-fingerprint-green text-plain-white transition duration-300
+   hover:bg-plain-white hover:border hover:border-fingerprint-green hover:text-fingerprint-green;
+}

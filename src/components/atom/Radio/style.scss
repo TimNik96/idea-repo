@@ -1,0 +1,15 @@
+label {
+    @apply flex items-center justify-center text-lg text-plain-grey font-bold cursor-pointer border-b-[1px] border-unreachable-dark;
+
+    input[type="radio"] {
+        @apply appearance-none flex items-center justify-center w-4 h-4 rounded-full border-2 border-fingerprint-green -translate-y-0.25 cursor-pointer;
+
+        &::before {
+            @apply content-[""] bg-fingerprint-green w-2 h-2 rounded-full transition-transform duration-150 ease-in-out scale-0;
+        }
+
+        &:checked::before {
+            @apply scale-100;
+        }
+    }
+}

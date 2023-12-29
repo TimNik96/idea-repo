@@ -1,0 +1,17 @@
+.main-navigation {
+    a {
+        @apply text-plain-black rounded-full no-underline transition-colors duration-200 hover:bg-plain-white hover:text-plain-black hover:rounded-full p-2 sm:px-5 sm:py-2;
+
+        svg {
+            @apply hidden;
+        }
+    }
+
+    & .active {
+        @apply text-fingerprint-blue focus:text-fingerprint-blue font-semibold bg-plain-white rounded-full border border-unreachable-dark;
+
+        svg {
+            @apply sm:block;
+        }
+    }
+}
