@@ -3,11 +3,11 @@ const RANGE_OF_PRODUCTS_API = {
     method: "GET",
 }
 const OPERATION_MODE_API = {
-    url: "selection/getOperationMode",
+    url: "/selection/getOperationMode",
     method: "GET",
 }
 const FAMILY_API = {
-    url: "selection/getFamily",
+    url: "/selection/getFamily",
     method: "GET",
 }
 

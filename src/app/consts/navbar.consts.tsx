@@ -1,10 +1,10 @@
-import i18n from "../config/i18n"
+import i18n from "app/config/i18n"
 import {
     CONFIGURATION_ROUTE,
     CUSTOMERS_ROUTE,
     MANAGEMENT_ROUTE,
     OFFERS_ROUTE,
-} from "./routes.consts"
+} from "app/consts/routes.consts"
 
 const { t } = i18n
 
